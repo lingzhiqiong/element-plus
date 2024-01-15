@@ -1,12 +1,7 @@
 <template>
   <div class="m-4">
     <el-select
-      v-model="value"
-      value-key="id"
-      placeholder="Select"
-      style="width: 240px"
-    >
-      <el-option
+
         v-for="item in options"
         :key="item.id"
         :label="item.label"
